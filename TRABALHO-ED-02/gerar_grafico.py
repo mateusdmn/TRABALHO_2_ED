@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Tamanhos de entrada (Eixo X)
 tamanhos_de_entrada = [100, 1_000, 10_000, 50_000, 100_000, 500_000, 1_000_000]
 
-# Tempos em milissegundos (Eixo Y) - Substitua pelos seus dados reais!
+# Tempos em milissegundos (Eixo Y) -
 # Simulação de O(n*k), onde os tempos são muito próximos
 tempo_ms_crescente = [0.015, 0.08, 0.75, 3.80, 7.50, 38.00, 75.00] 
 tempo_ms_decrescente = [0.017, 0.09, 0.76, 3.90, 7.60, 38.50, 75.50] 
@@ -53,4 +53,5 @@ def gerar_grafico_radix_sort_comparativo(tamanhos, tempo_cres, tempo_decr):
 
 # --- Execução ---
 if __name__ == '__main__':
+
     gerar_grafico_radix_sort_comparativo(tamanhos_de_entrada, tempo_ms_crescente, tempo_ms_decrescente)
